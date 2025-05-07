@@ -40,7 +40,7 @@
     after opening the editor and the last line after 117 at 118 write the code
     source /opt/ros/humble/setup.bash
     So now we dont to repetively enter the source /opt/ros/humble/setup.bash this whenever we need to use the ROS2 program codes since we have created the enviroment for it as default now in our terminal.
-##2.
+## 2.
   Here we will be simulating subscriber and publisher such that here the publisher will be publishing the data here we will be publishing Hello world with an interval of 1 sec multiple times and the suscriber will taking the message form the publiher and printing the meage we will seeing the connnection of each other by the azure graph feature to visualize the connection between each node.
   ### Step 1.
     here we will be running an talker node which will be acting as an publisher node it can activated by the code.
