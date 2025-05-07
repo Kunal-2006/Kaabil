@@ -56,4 +56,11 @@
     ros2 run turtlesim turtlesim_node
     In a new terminal we will type 
     rose2 run turtlesim turtle_teleop_key
+## 3.
+  Here we will creating an workspace in the terminal so we will be installing colcon for our workspace.
+  ### Step1.
+    sudo install colcon
+    sudo apt  install python3-colcon-common-extensions
+
+
     
