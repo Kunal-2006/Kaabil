@@ -40,3 +40,20 @@
     after opening the editor and the last line after 117 at 118 write the code
     source /opt/ros/humble/setup.bash
     So now we dont to repetively enter the source /opt/ros/humble/setup.bash this whenever we need to use the ROS2 program codes since we have created the enviroment for it as default now in our terminal.
+##2.
+  Here we will be simulating subscriber and publisher such that here the publisher will be publishing the data here we will be publishing Hello world with an interval of 1 sec multiple times and the suscriber will taking the message form the publiher and printing the meage we will seeing the connnection of each other by the azure graph feature to visualize the connection between each node.
+  ### Step 1.
+    here we will be running an talker node which will be acting as an publisher node it can activated by the code.
+    ros2 run demo_nodes_cpp talker
+  ### Step 2.
+    In a new terminal here we will be running an subscriber node which will act as an listener node it will be activated by the code given.
+    ros2 run demo_nodes_cpp listener
+  ### Step3.
+    Now in a new terminal we will use rqt grapgh to showcase the connection between the nodes in an graphical manner.
+    rqt_graph
+  ### Step Fun.
+    Here we can create an turtle mapping system which can be directed with the help of the directions provided by the user which will act as an publisher and the screen showing turtle will move according the to the commands will act as an subscriber.
+    ros2 run turtlesim turtlesim_node
+    In a new terminal we will type 
+    rose2 run turtlesim turtle_teleop_key
+    
