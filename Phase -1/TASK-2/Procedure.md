@@ -54,13 +54,39 @@
   ### Step Fun.
     Here we can create an turtle mapping system which can be directed with the help of the directions provided by the user which will act as an publisher and the screen showing turtle will move according the to the commands will act as an subscriber.
     ros2 run turtlesim turtlesim_node
+    
     In a new terminal we will type 
-    rose2 run turtlesim turtle_teleop_key
+    ros2 run turtlesim turtle_teleop_key
+    and we can visualize the nodes connection by writing in an new terminal rqt_graph
 ## 3.
   Here we will creating an workspace in the terminal so we will be installing colcon for our workspace.
   ### Step1.
     sudo install colcon
     sudo apt  install python3-colcon-common-extensions
+    here we will be installing colcon which is essential for managing software packages.
+  ### Step2.
+    Here we first go into the directory.
+       cd /usr/share/colcon_argcomplete/hook/
+      If we find the files present in the directory we will find the file as colcon-argcomplete.bash.
+      first edit the bash file by gedit ~/.bashrc and copy paste the path of the file
+        gedit ~/.bashrc
+        cd /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+  ### Step3.
+    Now we will create an src folder or an source folder in our workspace but before that we will create an directory of our workspace
+      mkdir ros2_ws
+    And in the workspace we will create an directory src
+      mkdir src
+    now in the workspace we will build our workspace with the help of colcon by the command
+      colcon build
+    now when we will check the list of directories present in the workspace we can see multiple directories.
+  ### Step 4.
+    Now we will open install folder and when all directories are listed we can see that there are mutiple directories where we can see one as setup.bash so we will source setup.bash to the original bash script such that workspace can be accesesed and it can recognize all the ros2 packages.
+      source ~/ros2_ws/install/setup.bash
+    copy this in the gedit ~/.bashrc
+    hence workspace created.
+      
+
+
 
 
     
