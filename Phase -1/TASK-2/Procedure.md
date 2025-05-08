@@ -84,6 +84,12 @@
       source ~/ros2_ws/install/setup.bash
     copy this in the gedit ~/.bashrc
     hence workspace created.
+## 4.
+  Here now since workspace is correctly configured now we need to just initiate our package.
+  Packages help us to compile our code in a better way.Since once package is created we can create node inside the package and start with actual coding.
+    ### Step1.
+      
+
       
 
 
