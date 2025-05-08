@@ -87,7 +87,24 @@
 ## 4.
   Here now since workspace is correctly configured now we need to just initiate our package.
   Packages help us to compile our code in a better way.Since once package is created we can create node inside the package and start with actual coding.
-    ### Step1.
+  ### Step1.
+    So first we will go in our worksapce directory which we have created as ros2_ws and go in the src sub directory of it by the code 
+      cd ros2_ws
+      cd src
+  ### Step2.
+    Now we will create our package by the name of my_robot_controller where we will specify it as an python package so we will use rclpy as an python library
+      ros2 pkg create my_robot_controller --build-type ament_python --dependencies rclpy
+    when seen the list of directories in the src directory we can see an new directory as the name of the package created as my_robot_controller
+  ### Step 3.
+    Now we will  install visual Studio because it will help in writing the python scripts needed for the nodes.
+      sudo install code --classic
+      code .
+  ### Step 4.
+    Now we will build our workspace in ros2_ws by the same command used colcon build
+      colcon build
+## 5.
+  ### Step1.
+    
       
       
 
