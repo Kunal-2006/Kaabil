@@ -113,7 +113,10 @@
     Install the ROS library in VS code for the ability to run the codes.
     after writing the code use the command ./my_first_node.py to run the code
   ### Step 2.
-    install the Node so for installation we will go in vs code and open the setup/py and put the required in code in the test_node.and do colcon build in the ros workspace
+    install the Node so for installation we will go in vs code and open the setup/py and put the required in code in the test_node.and do colcon build in the ros workspace.
+# 5.
+  ## Step 1.
+  
     
       
     
