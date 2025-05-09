@@ -109,7 +109,9 @@
       touch my_first_node.py
       chmod +x my_first_node.py
       code .
+      ./my_first_node.py
     Install the ROS library in VS code for the ability to run the codes.
+    after writing the code use the command ./my_first_node.py to run the code
     
       
     
