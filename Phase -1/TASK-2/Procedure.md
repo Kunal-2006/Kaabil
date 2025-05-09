@@ -103,7 +103,15 @@
     Now we will build our workspace in ros2_ws by the same command used colcon build
       colcon build
 ## 5.
+  Objective to create an Node which act as an publisher which created in ROS2 with the help OOPS in Python program.
   ### Step1.
+    To create an directory inside of the directory of my_robot_controller by the same name and in the new directory an new pyhton file is creted as the name of my_first_node.py and make it executable and edit the code.
+      touch my_first_node.py
+      chmod +x my_first_node.py
+      code .
+    Install the ROS library in VS code for the ability to run the codes.
+    
+      
     
       
       
