@@ -1,3 +1,4 @@
+//Temperature Sensor
 int baselineTemp = 0;
 int celsius = 0;
 
